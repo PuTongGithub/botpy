@@ -1,17 +1,15 @@
 # -*- coding: utf-8 -*-
-import os
-
 from setuptools import setup, find_packages
 
 setup(
-    name="qq-botpy",
-    version=os.getenv("VERSION_NAME"),
-    author="veehou",
-    author_email="veehou@tencent.com",
+    name="pt_qq-botpy",
+    version="0.0.1",
+    author="pt",
+    author_email="282549045@qq.com",
     description="qq robot client with python3",
     long_description=open("README.rst", encoding="utf-8").read(),
     # 项目主页
-    url="https://github.com/tencent-connect/botpy",
+    url="https://github.com/PuTongGithub/botpy",
     # 你要安装的包，通过 setuptools.find_packages 找到当前目录下有哪些包
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     # 执照

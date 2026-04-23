@@ -156,6 +156,8 @@ class DirectMessage:
             self.id = data.get("id", None)
             self.size = data.get("size", None)
             self.url = data.get("url", None)
+            self.voice_wav_url = data.get("voice_wav_url", None)
+            self.asr_refer_text = data.get("asr_refer_text", None)
 
         def __repr__(self):
             return str(self.__dict__)
