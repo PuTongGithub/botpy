@@ -170,7 +170,7 @@ class Intents(BaseFlags):
 
         通过增加`client`的`on_xx`成员方法可以获取事件下发的数据:
         `py
-        from botpy.guild import Guild
+        from pt_botpy.guild import Guild
 
         async def on_guild_create(self, guild: Guild):
             `执行相关的任务`

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from typing import Literal
 
-from botpy.types.user import Member
+from pt_botpy.types.user import Member
 
 RemindType = Literal[0, 1, 2, 3, 4, 5]
 

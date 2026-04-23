@@ -17,8 +17,8 @@ __all__ = [
 import re
 from typing import List, Dict
 
-from botpy import BotAPI
-from botpy.message import Message
+from pt_botpy import BotAPI
+from pt_botpy.message import Message
 
 
 def get_channel_jump(text: str = None, message: Message = None) -> List[str]:

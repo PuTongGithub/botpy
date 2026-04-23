@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from functools import wraps
-from botpy.message import BaseMessage
+from pt_botpy.message import BaseMessage
 
 
 class Commands:

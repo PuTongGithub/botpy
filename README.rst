@@ -1,6 +1,8 @@
 .. role:: raw-html-m2r(raw)
    :format: html
 
+fork from [tencent-connect/botpy](https://github.com/tencent-connect/botpy)
+更新了一些接口字段，以适配最新版本的机器人开放平台API
 
 botpy
 =====

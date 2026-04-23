@@ -2,8 +2,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="pt_qq-botpy",
-    version="0.0.1",
+    name="pt-qq-botpy",
+    version="0.0.5",
     author="pt",
     author_email="282549045@qq.com",
     description="qq robot client with python3",
